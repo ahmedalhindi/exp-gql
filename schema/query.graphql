@@ -1,0 +1,5 @@
+type Query {
+  resource: Resource
+  getResources: [Resource]
+  ping: String
+}

@@ -3,6 +3,6 @@ type Resource {
   field: String
 }
 
-type Query {
-  resource: Resource
+type Mutation {
+  postResource(field: String): Resource
 }
