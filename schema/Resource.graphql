@@ -1,0 +1,8 @@
+type Resource {
+  _id: ID
+  field: String
+}
+
+type Query {
+  resource: Resource
+}
