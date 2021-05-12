@@ -1,0 +1,20 @@
+{
+  "name": "exp-gql",
+  "version": "1.0.0",
+  "description": "A simple express graphql mongodb api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "graphql"
+  ],
+  "author": "ahmedalhindi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.8"
+  }
+}
